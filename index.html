@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículum Vitae</title>
+  <style>
+    body {font-size: 18px;   /* antes estaba en 15-16px */
+        zoom: 1.30;         /* acerca toda la página un 10% */
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background-color: #f4f8fb;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 20px auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    /* Sidebar */
+    .sidebar {
+      width: 30%;
+      background: linear-gradient(180deg, #1e90ff, #4682b4);
+      color: white;
+      padding: 25px;
+      box-sizing: border-box;
+    }
+    .sidebar img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 15px auto;
+      border: 3px solid white;
+    }
+    .sidebar h1 {
+      font-size: 22px;
+      text-align: center;
+      margin: 10px 0 20px;
+    }
+    .sidebar h3 {
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      padding-bottom: 5px;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    .sidebar p, .sidebar li {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    /* Contenido */
+    .content {
+      width: 70%;
+      padding: 30px;
+      background: white;
+      box-sizing: border-box;
+    }
+    .section {
+      margin-bottom: 25px;
+    }
+    .section h2 {
+      color: #1e90ff;
+      border-bottom: 2px solid #1e90ff;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    .section p, .section li {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #1e90ff;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f0f8ff;
+      color: #1e90ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Columna izquierda -->
+    <div class="sidebar">
+      <img src="piero1.jpg" alt="Foto de perfil">
+      <h1>PIERO QUIROZ JAQUE</h1>
+
+      <h3>📞 Contacto</h3>
+      <p><b>Email:</b> pierosk01@gmail.com</p>
+      <p><b>Tel:</b> +51 933 122 818</p>
+      <p><b>Dirección:</b> Lima, Perú</p>
+
+      <h3>👤 Perfil</h3>
+      <p>Estudiante de Ingeniería de Ciberseguridad con experiencia en soporte técnico, interés en redes y desarrollo web.</p>
+
+      <h3>⭐ Habilidades</h3>
+      <ul>
+        <li>Redes (Cisco CCNA) y Python</li>
+        <li>Desarrollo web</li>
+        <li>Soporte de hardware/software</li>
+        <li>Diseño Gráfico</li>
+        <li>Operador de Maquinaria Pesada</li>
+        <li>Instalacion de Cámaras de Vigilancia</li>
+      </ul>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="content">
+      <div class="section">
+        <h2>💼 Experiencia</h2>
+        <p><b>Actualidad:</b> Técnico en Instalación de Cámaras de Vigilancia<br>
+            Instalación, configuración y mantenimiento de sistemas de seguridad. 
+            Cableado estructurado y soporte técnico a clientes.</p>
+       
+         <p><b>2023:</b> Desarrollador Web Freelance<br>
+            Creación de páginas web corporativas en HTML, CSS y JavaScript. 
+            Optimización para dispositivos móviles y SEO básico.</p>
+       
+         <p><b>2022:</b> Técnico de Redes (Prácticas – Empresa XYZ)<br>
+            Configuración de routers y switches Cisco (CCNA). 
+            Diagnóstico y resolución de fallas de conectividad.</p>
+       
+         <p><b>2021:</b> Diseñador Gráfico Freelance<br>
+            Elaboración de logotipos, flyers y material publicitario digital 
+            utilizando herramientas de diseño (Photoshop, Illustrator).</p>
+       
+         <p><b>2020:</b> Operador de Maquinaria Pesada – Proyecto Familiar<br>
+            Manejo de retroexcavadora y cargador frontal en obras de construcción. 
+            Mantenimiento preventivo y control de seguridad en la operación.</p>
+       
+         <p><b>2019:</b> Proyectos Universitarios de Ingeniería de Sistemas<br>
+            Desarrollo de aplicaciones en Python, 
+            bases de datos en MySQL y documentación técnica de proyectos.</p>
+      </div>
+
+      <div class="section">
+        <h2>🎓 Educación</h2>
+        <p><b>2025 - Actualidad:</b> Ingeniería de Ciberseguridad - Instituo SENATI</p>
+      </div>
+
+      <div class="section">
+        <h2>🌍 Idiomas</h2>
+        <table>
+          <tr>
+            <th>Idioma</th>
+            <th>Nivel</th>
+          </tr>
+          <tr>
+            <td>Español</td>
+            <td>Nativo</td>
+          </tr>
+          <tr>
+            <td>Inglés</td>
+            <td>Intermedio</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
